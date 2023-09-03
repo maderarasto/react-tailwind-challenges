@@ -1,10 +1,13 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import './App.css'
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import GameListChallenge from './pages/challenges/GameList';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<h1 className="text-xl">ReactJS TailwindCSS Challenges</h1>}>
-
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+      <Route path='game-list' element={<GameListChallenge />} />
     </Route>
   )
 );
