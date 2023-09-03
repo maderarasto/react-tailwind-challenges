@@ -1,14 +1,18 @@
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import './App.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<h1 className="text-xl">ReactJS TailwindCSS Challenges</h1>}>
+
+    </Route>
+  )
+);
 
 function App() {
   return (
     <>
-      <h1 className="uppercase">
-        <FontAwesomeIcon icon={faCoffee} />
-        Hello World!
-      </h1>
+      <RouterProvider router={router} />
     </>
   )
 }
