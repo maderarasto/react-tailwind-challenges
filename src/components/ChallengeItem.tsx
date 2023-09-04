@@ -1,18 +1,19 @@
-import { ReactNode } from "react";
+
 import { useNavigate } from "react-router-dom"
+import ChallengeStatus from "./ChallengeStatus";
 
 type ChallengeItemProps = {
     title: string
-    previewImage: string,
-    status: ReactNode,
     path: string
+    previewImage: string,
+    status: Challenges.Status,
 }
 
 export default function ChallengeItem({
     title,
+    path,
     previewImage,
     status,
-    path
 }: ChallengeItemProps) {
     const navigate = useNavigate();
 
@@ -26,7 +27,7 @@ export default function ChallengeItem({
             <div className="absolute inset-0 bg-gradient-to-t from-slate-100 group-hover:from-violet-100"></div>
             <div className="absolute bottom-0 left-0 w-full py-4 px-2">
                 <h3 className="font-semibold">{title}</h3>
-                {status}
+                <ChallengeStatus status={status} />
             </div>
         </div>
     )

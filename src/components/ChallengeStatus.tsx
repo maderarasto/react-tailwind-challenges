@@ -1,28 +1,33 @@
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core"
+import { faCheck, faHourglassStart, faKeyboard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-type ChallengeStatusProps = {
-    text: string,
-    faIcon?: IconDefinition,
-    status?: 'default' | 'success' | 'warning' | 'danger'
+export type ChallengeStatusProps = {
+    status: Challenges.Status
 }
 
 export default function ChallengeStatus({
-    text,
-    faIcon,
     status
 }: ChallengeStatusProps) {
-    function statusBackgroundClassName() {
+    function resolveIcon() {
+        let faIcon: IconDefinition = faHourglassStart;
+
+        if (status === 'In Progress') {
+            faIcon = faKeyboard;
+        } else if (status === 'Finished') {
+            faIcon = faCheck
+        }
+
+        return faIcon;
+    }
+
+    function resolveBackground() {
         let backgroundClassName = 'bg-gray-300';
 
-        if (status === 'default') {
-            backgroundClassName = 'bg-gray-300';
-        } else if (status === 'success') {
-            backgroundClassName = 'bg-emerald-300'
-        } else if (status === 'warning')  {
-            backgroundClassName = 'bg-amber-300'
-        } else if (status === 'danger') {
-            backgroundClassName = 'bg-red-300'
+        if (status === 'In Progress') {
+            backgroundClassName = 'bg-amber-300';
+        } else if (status === 'Finished') {
+            backgroundClassName = 'bg-emerald-300';
         }
 
         return backgroundClassName;
@@ -30,9 +35,9 @@ export default function ChallengeStatus({
     
     return (
         <>
-            <span className={`py-1 px-2 rounded-md text-xs ${statusBackgroundClassName()}`}>
-                {faIcon ? <FontAwesomeIcon icon={faIcon} className="mr-2" /> : ''}
-                {text}
+            <span className={`py-1 px-2 rounded-md text-xs ${resolveBackground() }`}>
+                <FontAwesomeIcon icon={resolveIcon()} className="mr-2" />
+                {status}
             </span>
         </>
     )
