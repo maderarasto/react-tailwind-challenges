@@ -22,12 +22,13 @@ export default function ChallengeItem({
     }
 
     return (
-        <div className="relative group w-[240px] h-[240px] border-[1px] border-solid border-gray-300 rounded-lg shadow-md cursor-pointer hover:ring-2 hover:ring-violet-200" onClick={handleClick}>
-            <img className="w-full h-full rounded-lg" src={previewImage} alt={`Preview image of challenge ${title}`} />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-100 group-hover:from-violet-100"></div>
-            <div className="absolute bottom-0 left-0 w-full py-4 px-2">
-                <h3 className="font-semibold">{title}</h3>
-                <ChallengeStatus status={status} />
+        <div className="group self-start rounded-lg bg-white shadow-lg cursor-pointer overflow-hidden" onClick={handleClick}>
+            <img className="contrast-75 group-hover:contrast-100" src={previewImage} alt={`Preview image of challenge ${title}`} />
+            <div className="p-4">
+                <h2 className="mb-1 font-bold text-lg">{title}</h2>
+                <div className="flex">
+                    <ChallengeStatus status={status} />
+                </div>
             </div>
         </div>
     )
