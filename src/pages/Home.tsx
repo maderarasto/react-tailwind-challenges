@@ -8,7 +8,7 @@ export default function Home() {
     navigate('/game-list');
 
     return (
-        <div className="flex flex-col justify-center items-center h-screen">
+        <div className="flex flex-col justify-center items-center min-h-screen">
             <div className="w-full max-w-7xl h-[768px]">
                 <header className="mb-12">
                     <h1 className="font-bold text-2xl text-center">ReactJS TailwindCSS Chanllenges</h1>
