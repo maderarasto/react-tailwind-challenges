@@ -1,6 +1,6 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Home from './pages/Home';
-import GameListChallenge from './pages/challenges/GameList';
+import GameListChallenge from './pages/challenges/GameList/GameList';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
