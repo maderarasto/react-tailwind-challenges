@@ -18,7 +18,7 @@ export default [
         name: 'Mobile Movie Ad',
         path: 'mobile-movie-ad',
         image: MobileMovieAdPreviewImage,
-        status: 'In Queue'
+        status: 'In Progress'
     },
     {
         name: 'Playlist',
