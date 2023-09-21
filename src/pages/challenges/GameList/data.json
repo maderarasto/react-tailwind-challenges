@@ -1,0 +1,101 @@
+[
+    {
+        "id": "447dfe2d-8281-4576-903e-f54887493e75",
+        "name": "New Games",
+        "cardsStyle": "rect",
+        "games": [
+            {
+                "id": "3722e76d-f658-4b66-be53-2d3e8aba5a0d",
+                "name": "Need for Speed No Limits",
+                "image": "src/pages/challenges/GameList/assets/img/need_for_speed_no_limits.jpg",
+                "rating": 4
+            },
+            {
+                "id": "994bea15-6d0c-4190-9c1b-cce7da5f6acc",
+                "name": "June's Journey",
+                "image": "src/pages/challenges/GameList/assets/img/junes_journey.jpg",
+                "rating": 3
+            },
+            {
+                "id": "e96d8ec0-6c50-4e56-980a-9774807ee856",
+                "name": "Batman: The Enemy Within",
+                "image": "src/pages/challenges/GameList/assets/img/batman_enemy_within.jpg",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "851bbdb7-2a60-4009-8f90-87a7a4d20bd3",
+        "name": "Recommended for You",
+        "cardsStyle": "square",
+        "games": [
+            {
+                "id": "c1a969c3-64f5-4ffc-9a9a-387bf8e450bc",
+                "name": "Inside Out",
+                "image": "src/pages/challenges/GameList/assets/img/inside_out.png",
+                "price": 0,
+                "rating": 4
+            },
+            {
+                "id": "4af43786-7eff-4472-b74d-e3cde14cf3bf",
+                "name": "Candy Crush Saga",
+                "image": "src/pages/challenges/GameList/assets/img/candy_crush_saga.png",
+                "price": 0,
+                "rating": 3
+            },
+            {
+                "id": "0a2d0b6e-cd30-4a47-8d60-019268e67751",
+                "name": "Angry Birds Evolution",
+                "image": "src/pages/challenges/GameList/assets/img/angry_birds_evolution.png",
+                "price": 0,
+                "rating": 3
+            },
+            {
+                "id": "5c99bd97-2c00-4471-b154-f2a1d936ec9f",
+                "name": "Super Mario Run",
+                "image": "src/pages/challenges/GameList/assets/img/mario_super_run.jpg",
+                "price": 0,
+                "rating": 3
+            },
+            {
+                "id": "a0b1386e-202c-4a64-834e-a78a2e690153",
+                "name": "Fruit Ninja",
+                "image": "src/pages/challenges/GameList/assets/img/fruit_ninja.webp",
+                "price": 0,
+                "rating": 5
+            },
+            {
+                "id": "01e2384a-0c24-43a1-9944-d9ebb4fefb8f",
+                "name": "Sonic Dash",
+                "image": "src/pages/challenges/GameList/assets/img/sonic_dash.webp",
+                "price": 0,
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "abad8ce3-4659-4456-b318-0e3c19cf1fa1",
+        "name": "Trending Now",
+        "cardsStyle": "rect",
+        "games": [
+            {
+                "id": "0cc8b188-4069-4959-842b-3673a6588495",
+                "name": "Diggy's Adventure",
+                "image": "src/pages/challenges/GameList/assets/img/diggys_adventure.jpg",
+                "rating": 4
+            },
+            {
+                "id": "4f0bedae-2c7a-4e66-98f8-ebcd08dda38d",
+                "name": "Chaves Adventures",
+                "image": "src/pages/challenges/GameList/assets/img/chaves_adventures.png",
+                "rating": 3
+            },
+            {
+                "id": "44105cc8-f3b6-48ae-96a0-22db1ec4ebff",
+                "name": "Plants vs. Zombies 2",
+                "image": "src/pages/challenges/GameList/assets/img/plants_vs_zombies_2.webp",
+                "rating": 3
+            }
+        ]
+    }
+]
