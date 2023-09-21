@@ -12,7 +12,7 @@ export default [
         name: 'Game List',
         path: 'game-list',
         image: GameListPreviewImage,
-        status: 'In Progress'
+        status: 'Finished'
     },
     {
         name: 'Mobile Movie Ad',

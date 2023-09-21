@@ -5,8 +5,8 @@ import sections from './data.json';
 export default function GameListChallenge() {
     return (
         <div className="min-h-screen bg-gray-100">
-            <header className="flex items-end h-48 bg-white shadow-md">
-                <div className="md:container mx-auto">
+            <header className="flex items-end md:h-48 bg-white shadow-md">
+                <div className="md:container md:mx-auto">
                     <Navigation />
                 </div>
             </header>
