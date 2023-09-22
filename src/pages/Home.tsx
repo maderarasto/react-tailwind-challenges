@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Home() {
     // NAVIGATE TO CURRENT CHALLENGE In PROGRESS
     const navigate = useNavigate();
-    navigate('/game-list');
+    navigate('/mobile-movie-ad');
 
     return (
         <div className="flex flex-col justify-center items-center min-h-screen">
