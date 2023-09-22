@@ -1,11 +1,11 @@
 import ChallengeItem from '../components/ChallengeItem';
-import challenges from '../../challenges';
+import challenges from '../../assets/data.json'
 import { useNavigate } from 'react-router-dom';
 
 export default function Home() {
     // NAVIGATE TO CURRENT CHALLENGE In PROGRESS
-    const navigate = useNavigate();
-    navigate('/mobile-movie-ad');
+    // const navigate = useNavigate();
+    // navigate('/playlist');
 
     return (
         <div className="flex flex-col justify-center items-center min-h-screen">
@@ -20,7 +20,7 @@ export default function Home() {
                             title={item.name}
                             path={item.path}
                             previewImage={item.image}
-                            status={item.status}
+                            status={item.status as Challenges.Status}
                         />
                     ))}
                 </div>
