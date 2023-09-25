@@ -2,127 +2,127 @@
     {
         "name": "Game List",
         "path": "game-list",
-        "image": "assets/images/game-list.webp",
+        "image": "assets/images/challenges/game-list.webp",
         "status": "Finished"
     },
     {
         "name": "Mobile Movie Ad",
         "path": "mobile-movie-ad",
-        "image": "assets/images/mobile_movie_ad.webp",
+        "image": "assets/images/challenges/mobile_movie_ad.webp",
         "status": "Finished"
     },
     {
         "name": "Playlist",
         "path": "playlist",
-        "image": "assets/images/playlist.webp",
+        "image": "assets/images/challenges/playlist.webp",
         "status": "In Progress"
     },
     {
         "name": "Purple Messages",
         "path": "purple-messages",
-        "image": "assets/images/purple_messages.webp",
+        "image": "assets/images/challenges/purple_messages.webp",
         "status": "In Queue"
     },
     {
         "name": "Select Interest",
         "path": "select-interest",
-        "image": "assets/images/select_interest.webp",
+        "image": "assets/images/challenges/select_interest.webp",
         "status": "In Queue"
     },
     {
         "name": "Social Ui Kit",
         "path": "social-ui-kit",
-        "image": "assets/images/social_ui_kit.webp",
+        "image": "assets/images/challenges/social_ui_kit.webp",
         "status": "In Queue"
     },
     {
         "name": "Task Details",
         "path": "task-details",
-        "image": "assets/images/task_details.webp",
+        "image": "assets/images/challenges/task_details.webp",
         "status": "In Queue"
     },
     {
         "name": "Reviews 3",
         "path": "reviews-3",
-        "image": "assets/images/reviews_3.webp",
+        "image": "assets/images/challenges/reviews_3.webp",
         "status": "In Queue"
     },
     {
         "name": "Course Card",
         "path": "course_card",
-        "image": "assets/images/course_card.webp",
+        "image": "assets/images/challenges/course_card.webp",
         "status": "In Queue"
     },
     {
         "name": "File Upload",
         "path": "file-upload",
-        "image": "assets/images/file_upload.webp",
+        "image": "assets/images/challenges/file_upload.webp",
         "status": "In Queue"
     },
     {
         "name": "Food Menu",
         "path": "food-menu",
-        "image": "assets/images/food_menu.webp",
+        "image": "assets/images/challenges/food_menu.webp",
         "status": "In Queue"
     },
     {
         "name": "Halloween Countdown",
         "path": "halloween-countdown",
-        "image": "assets/images/halloween_countdown.webp",
+        "image": "assets/images/challenges/halloween_countdown.webp",
         "status": "In Queue"
     },
     {
         "name": "Fullpage Slider",
         "path": "fullpage-slider",
-        "image": "assets/images/fullpage_slider.webp",
+        "image": "assets/images/challenges/fullpage_slider.webp",
         "status": "In Queue"
     },
     {
         "name": "Image Zoom",
         "path": "image-zoom",
-        "image": "assets/images/image_zoom.webp",
+        "image": "assets/images/challenges/image_zoom.webp",
         "status": "In Queue"
     },
     {
         "name": "Mobile Pad",
         "path": "mobile-pad",
-        "image": "assets/images/mobile_pad.webp",
+        "image": "assets/images/challenges/mobile_pad.webp",
         "status": "In Queue"
     },
     {
         "name": "Music Player 2",
         "path": "music-player-2",
-        "image": "assets/images/music_player_2.webp",
+        "image": "assets/images/challenges/music_player_2.webp",
         "status": "In Queue"
     },
     {
         "name": "Pagination 4",
         "path": "pagination-4",
-        "image": "assets/images/pagination_4.webp",
+        "image": "assets/images/challenges/pagination_4.webp",
         "status": "In Queue"
     },
     {
         "name": "Photograph Profile",
         "path": "photograph-profile",
-        "image": "assets/images/photograph_profile.webp",
+        "image": "assets/images/challenges/photograph_profile.webp",
         "status": "In Queue"
     },
     {
         "name": "Progress Bar 2",
         "path": "progress-bar-2",
-        "image": "assets/images/progress_bar_2.webp",
+        "image": "assets/images/challenges/progress_bar_2.webp",
         "status": "In Queue"
     },
     {
         "name": "Settings Retro",
         "path": "settings-retro",
-        "image": "assets/images/settings_retro.webp",
+        "image": "assets/images/challenges/settings_retro.webp",
         "status": "In Queue"
     },
     {
         "name": "Shopping Cart",
         "path": "shopping-cart",
-        "image": "assets/images/shopping_cart.webp",
+        "image": "assets/images/challenges/shopping_cart.webp",
         "status": "In Queue"
     }
 ]

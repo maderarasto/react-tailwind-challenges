@@ -1,10 +1,15 @@
 import Slide from "../components/Slide";
-import movies from '../assets/data.json';
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
-export default function Slideshow() {
+type SlideshowProps = {
+    movies: Challenges.MobileMovieAd.Movie[]
+}
+
+export default function Slideshow({
+    movies
+}: SlideshowProps) {
     const [current, setCurrent] = useState(0);
 
     // Computed properties

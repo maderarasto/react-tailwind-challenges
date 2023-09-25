@@ -3,7 +3,7 @@
         "id": "702d95fa-7d12-4876-bfd4-77bdb63f736b",
         "title": "Transformer",
         "date": "4.1",
-        "image": "src/pages/challenges/MobileMovieAd/assets/img/transformers.jpg",
+        "image": "assets/images/mobile-movie-ad/transformers.jpg",
         "duration": "2h 24m",
         "synopse": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager."
     },
@@ -11,7 +11,7 @@
         "id": "7c9cc76fc-7774-46f0-975a-e8b558194b79",
         "title": "Wonder Woman",
         "date": "8.1",
-        "image": "src/pages/challenges/MobileMovieAd/assets/img/wonder_woman.jpg",
+        "image": "assets/images/mobile-movie-ad/wonder_woman.jpg",
         "duration": "2h 21m",
         "synopse": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
     },
@@ -19,7 +19,7 @@
         "id": "b47fbdb1-e303-4459-bf91-8424a9658cde",
         "title": "Thor: Love and Thunder",
         "date": "12.2",
-        "image": "src/pages/challenges/MobileMovieAd/assets/img/thor_love_and_thunder.png",
+        "image": "assets/images/mobile-movie-ad/thor_love_and_thunder.png",
         "duration": "1h 58m",
         "synopse": "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct."
     }

@@ -12,7 +12,7 @@ type GameRecord = {
 
 type CategorySectionProps = {
     title: string,
-    cardsStyle: GameList.CardStyle
+    cardsStyle: Challenges.GameList.CardStyle
     games: GameRecord[]
 }
 
@@ -49,7 +49,7 @@ export default function CategorySection({
             <GameCard key={game.id} image={game.image}>
                 <div className="flex items-center justify-between w-full">
                     <Rating total={5} value={game.rating} />
-                    {game.price !== undefined && game.price === 0 ? <span>Free</span> : ''}
+                    {game.price !== undefined && game.price === 0 ? <span className="text-gray-400">Free</span> : ''}
                 </div>
                 <NavLink to="" className="font-medium lg:text-sm text-slate-600 group-hover:underline">{game.name}</NavLink>
             </GameCard>
