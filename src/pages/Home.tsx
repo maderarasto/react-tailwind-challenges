@@ -24,12 +24,12 @@ export default function Home() {
     }
 
     return (
-        <div className="flex flex-col justify-center items-center min-h-screen">
-            <div className="w-full max-w-7xl h-[768px]">
-                <header className="mb-12">
-                    <h1 className="font-bold text-2xl text-center">ReactJS TailwindCSS Chanllenges</h1>
+        <div className="flex flex-col justify-center items-center min-h-screen bg-violet-200">
+            <div className="w-full max-w-7xl">
+                <header className="flex items-center justify-center h-[320px]">
+                    <h1 className="font-bold text-5xl text-center">ReactJS TailwindCSS Chanllenges</h1>
                 </header>
-                <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 px-8">
+                <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 px-8 py-8">
                     {challenges.map((item, index) => (
                         <ChallengeItem 
                             key={index}
