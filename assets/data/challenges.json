@@ -1,13 +1,13 @@
 [
     {
         "name": "Game List",
-        "path": "/#game-list",
+        "path": "game-list",
         "image": "assets/images/challenges/game-list.webp",
         "status": "Finished"
     },
     {
         "name": "Mobile Movie Ad",
-        "path": "/#mobile-movie-ad",
+        "path": "mobile-movie-ad",
         "image": "assets/images/challenges/mobile_movie_ad.webp",
         "status": "Finished"
     },
