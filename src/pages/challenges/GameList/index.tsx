@@ -26,12 +26,12 @@ export default function GameListChallenge() {
 
     return (
         <div className="min-h-screen bg-gray-100">
-            <header className="flex items-end md:h-48 bg-white shadow-md">
-                <div className="md:container md:mx-auto">
+            <header className="flex items-end lg:h-48 bg-white shadow-md">
+                <div className="lg:container lg:mx-auto">
                     <Navigation />
                 </div>
             </header>
-            <div className="md:container mx-auto">
+            <div className="md:container mx-auto p-4">
                 {categories.map(({id, name, cardsStyle, games}) => {
                     return <CategorySection key={id} title={name} cardsStyle={cardsStyle as Challenges.GameList.CardStyle} games={games} />;
                 })}
