@@ -1,3 +1,5 @@
+import Playlist from "../pages/challenges/Playlist";
+
 namespace Challenges {
     type Status = (
         | 'In Queue' 
@@ -38,6 +40,21 @@ namespace Challenges {
             image: string
             duration: string
             synopse: string
+        }
+    }
+
+    namespace Playlist {
+        type Track = {
+            id: string
+            name: string
+            author: string
+            image: string
+            duration: number
+        }
+
+        type Playlist = {
+            name: string
+            tracks: Track[]
         }
     }
 }
