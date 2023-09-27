@@ -1,0 +1,89 @@
+{
+    "name": "The Official Trip Hop Classics Top 100",
+    "tracks": [
+        {
+            "id": "4b989cb1-aad4-49ae-b896-8a8dab0f68dd",
+            "name": "Midnight In a Perfect World",
+            "author": "DJ Shadown",
+            "image": "assets/images/playlist/djshadow_midnight_in_perfect_world_cover.jpg",
+            "duration": 289
+        },
+        {
+            "id": "4324dd0d-24ce-48e6-bfd6-a4e444fd2abe",
+            "name": "Climbing up the walls [Zero 7 Mix]",
+            "author": "★ Radiohead",
+            "image": "assets/images/playlist/radiohead_climbing_up_the_walls_cover.jpg",
+            "duration": 314
+        },
+        {
+            "id": "18061300-1e41-4d62-bf5d-8f69b382df2e",
+            "name": "Mu Getsu",
+            "author": "Dj Krush",
+            "image": "assets/images/playlist/dj_krush_mu_gustu.jpg",
+            "duration": 380
+        },
+        {
+            "id": "e4ee0328-2fe9-4389-ac96-b26a3df6e679",
+            "name": "No Escape - Long Way From Home Istanbul Acoustic Sessions",
+            "author": "Wax Poetic",
+            "image": "assets/images/playlist/wax_poetic_no_escape.jpg",
+            "duration": 288
+        },
+        {
+            "id": "1698c9b7-0525-4a7e-915d-02346a636595",
+            "name": "Inhaler",
+            "author": "Hooverphonic",
+            "image": "assets/images/playlist/inhaler_hooverphonic_cover.jpg",
+            "duration": 312
+        },
+        {
+            "id": "2165be9f-ef97-4a19-b54e-8cee27befc97",
+            "name": "What Becomes Of Us (Nesting Dolls Edit)",
+            "author": "Cinephile",
+            "image": "assets/images/playlist/cinephile_what_becomes_of_us_cover.jpg",
+            "duration": 260
+        },
+        {
+            "id": "01860462-514d-4b9b-adb0-d85b4b97e5c5",
+            "name": "Insensible",
+            "author": "Mandalay",
+            "image": "assets/images/playlist/mandalay_insensible_cover.jpg",
+            "duration": 291
+        },
+        {
+            "id": "1d070016-8ec4-49a1-8c9d-0a5428a301fe",
+            "name": "Love Anybody",
+            "author": "Barcode",
+            "image": "assets/images/playlist/barcode_love_anybody.jpg",
+            "duration": 393
+        },
+        {
+            "id": "70ee4efd-8902-46fe-b423-afd25ec1b2f3",
+            "name": "Original",
+            "author": "Leftfield",
+            "image": "assets/images/playlist/leftfield_original_cover.jpg",
+            "duration": 249
+        },
+        {
+            "id": "972ab900-30f1-49c0-9fb3-d6627548beba",
+            "name": "Purple [Lyrics Included]",
+            "author": "Crustation",
+            "image": "assets/images/playlist/crustation_purple_cover.jpg",
+            "duration": 264
+        },
+        {
+            "id": "6f947568-dfcd-49b1-811e-95d28ea8fde7",
+            "name": "Kemuri",
+            "author": "DJ Krush",
+            "image": "assets/images/playlist/dj_krush_kemuri_cover.jpg",
+            "duration": 323
+        },
+        {
+            "id": "3fff8c2c-d51c-48c0-ae02-64533ff51fe4",
+            "name": "Eastwest (stoned together)",
+            "author": "Mama Oliver",
+            "image": "assets/images/playlist/mama_oliver_eastwest_cover.jpg",
+            "duration": 301
+        }
+    ]
+}
