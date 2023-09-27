@@ -15,13 +15,13 @@
         "name": "Playlist",
         "path": "playlist",
         "image": "assets/images/challenges/playlist.webp",
-        "status": "In Progress"
+        "status": "Finished"
     },
     {
         "name": "Purple Messages",
         "path": "purple-messages",
         "image": "assets/images/challenges/purple_messages.webp",
-        "status": "In Queue"
+        "status": "In Progress"
     },
     {
         "name": "Select Interest",
