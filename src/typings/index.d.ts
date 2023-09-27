@@ -1,5 +1,3 @@
-import Playlist from "../pages/challenges/Playlist";
-
 namespace Challenges {
     type Status = (
         | 'In Queue' 

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import { Challenges } from "../../../typings";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import PlaylistTrack from "./components/PlaylistTrack";
