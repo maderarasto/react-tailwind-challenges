@@ -52,7 +52,7 @@ export default function Playlist() {
                         <FontAwesomeIcon icon={faAngleDown} size="lg" className="text-slate-600 group-hover:text-slate-700" />
                     </div>
                 </header>
-                <article className={`${open ? 'h-[680px] opacity-100' : 'h-0 opacity-0'} overflow-y-scroll transition-all duration-500`}>
+                <article className={`${open ? 'sm:h-[680px] h-[calc(100% - 140px)] opacity-100' : 'h-0 opacity-0'} overflow-y-scroll transition-all duration-500`}>
                     {playlist?.tracks.map(track => (
                         <PlaylistTrack
                             key={track.id}
