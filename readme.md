@@ -19,7 +19,7 @@ After installation you can install project dependencies with command:
 npm install
 ```
 
-After installing all dependencies you run React project with command:
+After installing all dependencies you can run React project with command:
 ```bash
 npm run dev
 ```
