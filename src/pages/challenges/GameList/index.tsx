@@ -26,7 +26,7 @@ export default function GameListChallenge() {
 
     return (
         <div className="min-h-screen bg-gray-100">
-            <header className="flex items-end lg:h-48 bg-white shadow-md">
+            <header className="sticky top-0 flex items-end bg-white shadow-md">
                 <div className="lg:container lg:mx-auto">
                     <Navigation />
                 </div>
