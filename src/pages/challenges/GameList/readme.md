@@ -5,9 +5,9 @@ If you want to look at finished challenge you can visit [here](https://maderaras
 - Grids of game cards
 - Responsive design
 
-### Limitations
-- Only introductory view on games page
-- Without searching items
+### Does not include funcionality
+- navigating through individual sections
+- saarching items
 
 ### Challenge Preview
 ![Preview of GameList challenge](../../../../public/assets/images/challenges/game-list.webp)
