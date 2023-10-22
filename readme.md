@@ -1,5 +1,6 @@
 # ReactJS TailwindCSS Challenges
 This projects represents set of frontend challenges from [ICodeThis](https://icodethis.com) and recreated using **React** library with **Tailwind CSS** framework. Goal of each challenge can be different and some funcionalities are limited.
+Individual challenges you can find in path `src/pages/challenges/` or simply [navigate there](https://github.com/maderarasto/react-tailwind-challenges/tree/main/src/pages/challenges).
 
 **Tags**: React, Typescript, Javascript, TailwindCSS, ICodeThis
 
