@@ -2,12 +2,12 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core"
 import { faCheck, faHourglassStart, faKeyboard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-export type ChallengeStatusProps = {
+interface ChallengeStatusProps extends React.HTMLAttributes<HTMLElement> {
     status: Challenges.Status
 }
 
 export default function ChallengeStatus({
-    status
+    status, ...props
 }: ChallengeStatusProps) {
     function resolveIcon() {
         let faIcon: IconDefinition = faHourglassStart;
@@ -35,8 +35,8 @@ export default function ChallengeStatus({
     
     return (
         <>
-            <span className={`py-1 px-2 rounded-md text-xs ${resolveBackground() }`}>
-                <FontAwesomeIcon icon={resolveIcon()} className="mr-2" />
+            <span {...props} className={`max-w-[12px] py-1 px-2 rounded-md box-content text-xs whitespace-nowrap ${resolveBackground() } cursor-pointer overflow-hidden transition-[max-width] duration-500 hover:max-w-[100px] ${props.className}`}>
+                <FontAwesomeIcon icon={resolveIcon()} className="mr-3" />
                 {status}
             </span>
         </>

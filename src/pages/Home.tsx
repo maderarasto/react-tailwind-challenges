@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 
 import Navigation from '../components/Navigation';
-import ChallengeItem from '../components/ChallengeItem';
+import ChallengeCard from '../components/ChallengeCard';
 
 export default function Home() {
-    const [challenges, setChallenges] = useState<Challenges.Item[]>([]);
+    const [challenges, setChallenges] = useState<Challenges.Card[]>([]);
 
     useEffect(() => {
         loadChallenges().then(challenges => {
@@ -12,7 +12,7 @@ export default function Home() {
         })
     }, []);
 
-    function loadChallenges(): Promise<Challenges.Item[]> {
+    function loadChallenges(): Promise<Challenges.Card[]> {
         return new Promise((resolve, reject) => {
             fetch('assets/data/challenges.json', {
                 headers: {
@@ -28,6 +28,18 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-gray-100">
             <Navigation />
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 w-full max-w-7xl mx-auto px-4 py-6">
+                {challenges.map((item, index) => (
+                    <ChallengeCard 
+                        key={index}
+                        title={item.name}
+                        path={item.path}
+                        previewImage={item.image}
+                        tags={item.tags}
+                        status={item.status as Challenges.Status}
+                    />
+                ))}
+            </div>
         </div>
     )
 }

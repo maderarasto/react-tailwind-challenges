@@ -5,10 +5,11 @@ namespace Challenges {
         | 'Finished'
     );
 
-    type Item = {
+    type Card = {
         name: string
         path: string
         image: string
+        tags: string[]
         status: Status
     }
 
