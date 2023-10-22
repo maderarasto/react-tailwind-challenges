@@ -34,7 +34,7 @@ export default function ChallengeCard({
                 </div>
                 <div className="flex flex-wrap gap-1">
                     {tags.map(tag => (
-                        <ChallengeTag className="self-start">{tag}</ChallengeTag>
+                        <ChallengeTag key={tag} className="self-start">{tag}</ChallengeTag>
                     ))}
                 </div>
             </div>

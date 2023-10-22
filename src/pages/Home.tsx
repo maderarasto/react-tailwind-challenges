@@ -29,9 +29,9 @@ export default function Home() {
         <div className="min-h-screen bg-gray-100">
             <Navigation />
             <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 w-full max-w-7xl mx-auto px-4 py-6">
-                {challenges.map((item, index) => (
+                {challenges.map(item => (
                     <ChallengeCard 
-                        key={index}
+                        key={item.name}
                         title={item.name}
                         path={item.path}
                         previewImage={item.image}
