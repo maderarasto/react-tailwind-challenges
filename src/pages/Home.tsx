@@ -5,6 +5,7 @@ import ChallengeCard from '../components/ChallengeCard';
 
 export default function Home() {
     const [challenges, setChallenges] = useState<Challenges.Card[]>([]);
+    const [searchText, setSearchText] = useState('');
 
     useEffect(() => {
         loadChallenges().then(challenges => {
@@ -25,20 +26,28 @@ export default function Home() {
         });
     }
 
+    function handleSearch(searchValue: string) {
+        setSearchText(searchValue);
+    }
+
     return (
         <div className="min-h-screen bg-gray-100">
-            <Navigation />
+            <Navigation onSearch={handleSearch} />
             <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 w-full max-w-7xl mx-auto px-4 py-6">
-                {challenges.map(item => (
-                    <ChallengeCard 
-                        key={item.name}
-                        title={item.name}
-                        path={item.path}
-                        previewImage={item.image}
-                        tags={item.tags}
-                        status={item.status as Challenges.Status}
-                    />
-                ))}
+                {
+                    challenges.filter(
+                        challenge => challenge.name.includes(searchText)
+                    ).map(item => (
+                        <ChallengeCard 
+                            key={item.name}
+                            title={item.name}
+                            path={item.path}
+                            previewImage={item.image}
+                            tags={item.tags}
+                            status={item.status as Challenges.Status}
+                        />
+                    ))
+                }
             </div>
         </div>
     )
