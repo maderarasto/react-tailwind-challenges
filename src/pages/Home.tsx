@@ -36,7 +36,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 w-full max-w-7xl mx-auto px-4 py-6">
                 {
                     challenges.filter(
-                        challenge => challenge.name.includes(searchText)
+                        challenge => challenge.name.toLowerCase().includes(searchText.toLowerCase())
                     ).map(item => (
                         <ChallengeCard 
                             key={item.name}
