@@ -1,0 +1,125 @@
+{
+    "users": [
+        {
+            "id": "24b2abb9-0fd4-4d1a-8bae-7399d3b74e39",
+            "firstName": "Darrion",
+            "lastName": "O'Kon",
+            "photoUrl": "https://randomuser.me/api/portraits/men/51.jpg"
+        },
+        {
+            "id": "6b6878ab-cf79-400f-9dd7-fd19a2f80269",
+            "firstName": "Curtis",
+            "lastName": "Smitham",
+            "photoUrl": "https://randomuser.me/api/portraits/men/72.jpg"
+        },
+        {
+            "id": "e486a6d4-0cfd-4c87-bf8f-6a74e8835e1d",
+            "firstName": "Leo",
+            "lastName": "Pacocha",
+            "photoUrl": "https://randomuser.me/api/portraits/men/41.jpg"
+        },
+        {
+            "id": "3f04371e-56db-427b-99b8-c0ebce4dc840",
+            "firstName": "Hoyt",
+            "lastName": "Reynolds",
+            "photoUrl": "https://randomuser.me/api/portraits/men/76.jpg"
+        },
+        {
+            "id": "bff065d8-8641-4c04-bdf9-68fd727305a7",
+            "firstName": "Pierce",
+            "lastName": "Purdy",
+            "photoUrl": "https://randomuser.me/api/portraits/men/81.jpg"
+        },
+        {
+            "id": "4791e4f4-448c-4ce1-9c16-35c1085bd109",
+            "firstName": "Ora",
+            "lastName": "Flatley",
+            "photoUrl": "https://randomuser.me/api/portraits/women/47.jpg"
+        },
+        {
+            "id": "02b836cc-36a2-4963-808c-631bfb0acd25",
+            "firstName": "Taryn",
+            "lastName": "Volkman",
+            "photoUrl": "https://randomuser.me/api/portraits/men/35.jpg"
+        },
+        {
+            "id": "b38ecca4-4c76-4034-b378-c8b21adad56d",
+            "firstName": "Macy",
+            "lastName": "Bergnaum",
+            "photoUrl": "https://randomuser.me/api/portraits/women/87.jpg"
+        },
+        {
+            "id": "5a02a1d7-e806-4f38-a17c-cd894bf2b0b0",
+            "firstName": "Sheldon",
+            "lastName": "McGlynn",
+            "photoUrl": "https://randomuser.me/api/portraits/men/70.jpg"
+        },
+        {
+            "id": "8c3635da-da89-4038-b802-be86dece61b6",
+            "firstName": "Lera",
+            "lastName": "Stark",
+            "photoUrl": "https://randomuser.me/api/portraits/women/74.jpg"
+        }
+    ],
+    "userId": "02b836cc-36a2-4963-808c-631bfb0acd25",
+    "chats": [
+        {
+            "id": "b9ce137d-1324-4b7f-a4a6-ecfff835c017",
+            "participants": [
+                "02b836cc-36a2-4963-808c-631bfb0acd25",
+                "6b6878ab-cf79-400f-9dd7-fd19a2f80269"
+            ],
+            "messages": [
+                
+            ]
+        },
+        {
+            "id": "2187c78b-921d-4a9e-85a6-2ebba6ef789c",
+            "participants": [
+                "02b836cc-36a2-4963-808c-631bfb0acd25",
+                "8c3635da-da89-4038-b802-be86dece61b6"
+            ],
+            "messages": [
+                
+            ]
+        },
+        {
+            "id": "cc923d97-56e7-4727-b393-516f6379c17a",
+            "participants": [
+                "02b836cc-36a2-4963-808c-631bfb0acd25",
+                "3f04371e-56db-427b-99b8-c0ebce4dc840"
+            ],
+            "messages": [
+            ]
+        },
+        {
+            "id": "8d6dbba5-0124-4adc-bacc-00284df7a1d2",
+            "participants": [
+                "02b836cc-36a2-4963-808c-631bfb0acd25",
+                "bff065d8-8641-4c04-bdf9-68fd727305a7"
+            ],
+            "messages": [
+               
+            ]
+        },
+        {
+            "id": "40c4bb46-6ad4-482e-8848-e709fab81e29",
+            "participants": [
+                "02b836cc-36a2-4963-808c-631bfb0acd25",
+                "4791e4f4-448c-4ce1-9c16-35c1085bd109"
+            ],
+            "messages": [
+            ]
+        },
+        {
+            "id": "5a0e9fde-7510-4abf-998e-4b9c3f9d9e4c",
+            "participants": [
+                "02b836cc-36a2-4963-808c-631bfb0acd25",
+                "5a02a1d7-e806-4f38-a17c-cd894bf2b0b0"
+            ],
+            "messages": [
+              
+            ]
+        }
+    ]
+}
