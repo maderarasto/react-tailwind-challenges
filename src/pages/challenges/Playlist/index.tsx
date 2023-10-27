@@ -16,8 +16,6 @@ export default function Playlist() {
                 setActiveTrack(data.tracks.at(0)?.id as string);
             }
         });
-
-        setTimeout(() => console.log(playlist), 3000);
     }, []);
 
     function loadPlaylist(): Promise<Challenges.Playlist.Playlist> {

@@ -56,4 +56,24 @@ namespace Challenges {
             tracks: Track[]
         }
     }
+
+    namespace PurpleMessages {
+        type User = {
+            id: string
+            firstName: string
+            lastName: string
+            photoUrl: string
+        }
+
+        type Chat = {
+            id: string
+            participants: string[]
+            messages: any[]
+        }
+
+        type ChatData = {
+            users: User[]
+            chats: Chat[]
+        }
+    }
 }
