@@ -72,6 +72,7 @@ namespace Challenges {
         }
 
         type ChatData = {
+            userId: string
             users: User[]
             chats: Chat[]
         }
