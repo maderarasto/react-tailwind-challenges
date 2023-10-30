@@ -45,7 +45,7 @@ export default function Sidebar() {
         refInput.current.focus();
     }
 
-    function handleSearchInput(ev: React.SyntheticEvent<HTMLInputElement>) {
+    function handleSearchInput(_: React.SyntheticEvent<HTMLInputElement>) {
         
     }
 
